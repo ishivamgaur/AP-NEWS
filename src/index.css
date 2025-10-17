@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+.marquee-container {
+  display: flex;
+  width: 100%;
+}
+.marquee-content {
+  display: flex;
+  animation: slide 25s linear infinite;
+}
+.highlights-bar:hover .marquee-content {
+  animation-play-state: paused;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

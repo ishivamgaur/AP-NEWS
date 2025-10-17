@@ -18,7 +18,7 @@ const VideoCard = ({ video, onPlay }) => {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-between p-4">
         <div className="flex-grow flex items-center justify-center">
-          <div className="w-14 h-14 bg-red-600/80 rounded-full flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:bg-red-600">
+          <div className="w-14 h-14 bg-red-600/80 hover:bg-red-700/80 rounded-full flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:bg-red-600">
             <FaPlay className="text-white text-xl" />
           </div>
         </div>

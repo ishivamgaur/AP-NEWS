@@ -18,7 +18,7 @@ const VideoModal = ({ videoId, onClose }) => {
         >
           <FaTimes />
         </button>
-        <div className="aspect-w-16 aspect-h-9  h-screen rounded-lg overflow-hidden shadow-2xl">
+        <div className="aspect-w-16 aspect-h-9  h-[70vh] rounded-lg overflow-hidden shadow-2xl">
           <iframe
             src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
             title="YouTube video player"

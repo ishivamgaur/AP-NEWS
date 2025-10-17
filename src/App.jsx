@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import CategoryPage from "./components/CategoryPage";
 import Home from "./pages/Home";
 import { useMemo } from "react";
+import HighlightsBar from "./components/HighlightsBar";
 
 function App() {
   const categories = useMemo(
@@ -90,6 +91,7 @@ function App() {
             ))}
           </Routes>
         </main>
+        <HighlightsBar />
         <Footer />
       </div>
     </Router>

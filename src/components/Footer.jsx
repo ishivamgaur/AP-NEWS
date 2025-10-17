@@ -54,14 +54,14 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-900 text-white mt-12">
+    <footer className="bg-red-800 text-white pb-16">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">
               {content[language].brand}
             </h3>
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-200 text-sm">
               {content[language].description}
             </p>
           </div>
@@ -72,24 +72,24 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/news" className="text-gray-400 hover:text-white">
+                <Link to="/news" className="text-gray-200 hover:text-white">
                   {content[language].nav.news}
                 </Link>
               </li>
               <li>
-                <Link to="/business" className="text-gray-400 hover:text-white">
+                <Link to="/business" className="text-gray-200 hover:text-white">
                   {content[language].nav.business}
                 </Link>
               </li>
               <li>
-                <Link to="/sports" className="text-gray-400 hover:text-white">
+                <Link to="/sports" className="text-gray-200 hover:text-white">
                   {content[language].nav.sports}
                 </Link>
               </li>
               <li>
                 <Link
                   to="/technology"
-                  className="text-gray-400 hover:text-white"
+                  className="text-gray-200 hover:text-white"
                 >
                   {content[language].nav.technology}
                 </Link>
@@ -103,19 +103,19 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/" className="text-gray-400 hover:text-white">
+                <Link to="/" className="text-gray-200 hover:text-white">
                   {content[language].nav.home}
                 </Link>
               </li>
               <li>
-                <Link to="/bhojpuri" className="text-gray-400 hover:text-white">
+                <Link to="/bhojpuri" className="text-gray-200 hover:text-white">
                   {content[language].nav.entertainment}
                 </Link>
               </li>
               <li>
                 <Link
                   to="/lifestyle"
-                  className="text-gray-400 hover:text-white"
+                  className="text-gray-200 hover:text-white"
                 >
                   {content[language].nav.lifestyle}
                 </Link>
@@ -123,7 +123,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/elections"
-                  className="text-gray-400 hover:text-white"
+                  className="text-gray-200 hover:text-white"
                 >
                   {content[language].nav.elections}
                 </Link>
@@ -136,31 +136,31 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-gray-200 hover:text-white transition-colors"
               >
                 <FaFacebook size={24} />
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-gray-200 hover:text-white transition-colors"
               >
                 <FaTwitter size={24} />
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-gray-200 hover:text-white transition-colors"
               >
                 <FaInstagram size={24} />
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-gray-200 hover:text-white transition-colors"
               >
                 <FaYoutube size={24} />
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-white transition-colors"
+                className="text-gray-200 hover:text-white transition-colors"
               >
                 <FaLinkedin size={24} />
               </a>
@@ -168,7 +168,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-6 text-center text-sm text-gray-400">
+        <div className="border-t border-gray-400 mt-8 pt-6 text-center text-sm text-gray-200">
           <p>
             &copy; {currentYear} {content[language].brand}.{" "}
             {content[language].rights}

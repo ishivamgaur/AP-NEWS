@@ -6,6 +6,8 @@ import VideoModal from "../components/VideoModal";
 import { newsData } from "../data/newsData";
 import { useLanguage } from "../context/LanguageContext";
 import Pagination from "../components/Pagination";
+import HighlightsBar from "../components/HighlightsBar";
+import SocialSections from "../components/SocialSections";
 
 const Home = () => {
   const { language } = useLanguage();
@@ -68,13 +70,14 @@ const Home = () => {
               <NewsCard key={news.id} news={news} />
             ))}
           </div>
+          <Pagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            onPageChange={setCurrentPage}
+          />
         </div>
-
-        <Pagination
-          currentPage={currentPage}
-          totalPages={totalPages}
-          onPageChange={setCurrentPage}
-        />
+        {/* Social Sections */}
+        <SocialSections />
       </div>
 
       <VideoModal videoId={playingVideoId} onClose={handleCloseModal} />

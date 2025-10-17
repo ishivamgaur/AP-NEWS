@@ -13,7 +13,9 @@ export const newsData = [
       "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "NEWS",
     date: "Oct 17, 2025",
-    youtubeVideoId: "K17MBpL9w6I", // Example Video ID
+    youtubeVideoId: "K17MBpL9w6I",
+    instagramPostId: "Cg-qY3qj4sY", // Example Instagram Post
+    facebookPostUrl: "https://www.facebook.com/react/posts/10160859658387142", // Example Facebook Post
   },
   {
     id: 2,
@@ -29,6 +31,7 @@ export const newsData = [
       "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "TECHNOLOGY",
     date: "Oct 17, 2025",
+    instagramPostId: "Csm9eG4yNyy",
   },
   {
     id: 3,
@@ -44,6 +47,7 @@ export const newsData = [
       "https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "BUSINESS",
     date: "Oct 16, 2025",
+    facebookPostUrl: "https://www.facebook.com/meta/posts/10160859658387142",
   },
   {
     id: 4,
@@ -75,6 +79,8 @@ export const newsData = [
       "https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "SPORTS",
     date: "Oct 16, 2025",
+    youtubeVideoId: "dQw4w9WgXcQ",
+    instagramPostId: "C1_zZ-HyP-B",
   },
   {
     id: 6,
@@ -90,7 +96,8 @@ export const newsData = [
       "https://images.pexels.com/photos/3822621/pexels-photo-3822621.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "LIFESTYLE",
     date: "Oct 15, 2025",
-    youtubeVideoId: "KHjGymJzuks", // Example Video ID
+    youtubeVideoId: "KHjGymJzuks",
+    facebookPostUrl: "https://www.facebook.com/nasa/posts/10160859658387142",
   },
   {
     id: 7,
@@ -106,6 +113,7 @@ export const newsData = [
       "https://images.pexels.com/photos/8828424/pexels-photo-8828424.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "ELECTIONS",
     date: "Oct 15, 2025",
+    facebookPostUrl: "https://www.facebook.com/Google/posts/10160859658387142",
   },
   {
     id: 21,
@@ -137,6 +145,7 @@ export const newsData = [
       "https://images.pexels.com/photos/7681091/pexels-photo-7681091.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "BUSINESS",
     date: "Oct 14, 2025",
+    youtubeVideoId: "v2a_2J3_s9Q",
   },
   {
     id: 10,
@@ -152,6 +161,7 @@ export const newsData = [
       "https://images.pexels.com/photos/2990650/pexels-photo-2990650.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "NEWS",
     date: "Oct 14, 2025",
+    instagramPostId: "C2A5Xo_yZ6q",
   },
   {
     id: 11,
@@ -167,6 +177,9 @@ export const newsData = [
       "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "TECHNOLOGY",
     date: "Oct 14, 2025",
+    youtubeVideoId: "mP0O2YF-41A",
+    instagramPostId: "C2F1Z_xyZ-a",
+    facebookPostUrl: "https://www.facebook.com/Apple/posts/10160859658387142",
   },
   {
     id: 13,
@@ -182,6 +195,7 @@ export const newsData = [
       "https://images.pexels.com/photos/936094/pexels-photo-936094.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "SPORTS",
     date: "Oct 13, 2025",
+    youtubeVideoId: "I_3-9o4tV2A",
   },
   {
     id: 14,
@@ -257,6 +271,8 @@ export const newsData = [
       "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "ENTERTAINMENT",
     date: "Oct 11, 2025",
+    youtubeVideoId: "Ua5UARlS4kE",
+    instagramPostId: "C2J3K_zyZ-c",
   },
   {
     id: 19,
